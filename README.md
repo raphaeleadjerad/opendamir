@@ -2,7 +2,7 @@
 
 
 This project aims at reducing the size of [OPENDAMIR database](http://open-data-assurance-maladie.ameli.fr/depenses/index.php)
-along some particular axis to be able to manipulate it easily with `pandas`.
+(CNAM) along some particular axis to be able to manipulate it easily with `pandas`.
 First of all, the database is converted to parquet format. 
 Then, we define a set of function that use `dask` to load the parquet files
 and group the monthly files according to particular indexes.
