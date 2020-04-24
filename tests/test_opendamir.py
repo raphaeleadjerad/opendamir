@@ -9,7 +9,7 @@ import csv
 import re
 import seaborn as sns
 import matplotlib.pyplot as plt
-import src.opendamir as opendamir
+import opendamir.opendamir as opendamir
 
 print(os.getcwd())
 

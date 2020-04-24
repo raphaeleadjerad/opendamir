@@ -1,5 +1,8 @@
 # OPENDAMIR Analysis
 
+- reducting opendamir with `dask`
+- visualizing amounts with `streamlit`
+
 
 This project aims at reducing the size of [OPENDAMIR database](http://open-data-assurance-maladie.ameli.fr/depenses/index.php)
 (CNAM) along some particular axis to be able to manipulate it easily with `pandas`.
@@ -19,3 +22,6 @@ The final dataset is 35K.
  
  I chose this axis as a mere example but this could be extended to the different
  variables present in the database.  
+
+The `streamlit` app enables us to check expenditure and amounts reimbursed by choosing acts
+and categories associated to Medical Specialty.
